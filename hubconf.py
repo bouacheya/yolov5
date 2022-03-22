@@ -103,6 +103,7 @@ def yolov5n6(pretrained=True, channels=3, classes=80, autoshape=True, verbose=Tr
 
 def yolov5s6(pretrained=True, channels=3, classes=80, autoshape=True, verbose=True, device=None):
     # YOLOv5-small-P6 model https://github.com/ultralytics/yolov5
+    print('yannis v5666666666')
     return _create('yolov5s6', pretrained, channels, classes, autoshape, verbose, device)
 
 
