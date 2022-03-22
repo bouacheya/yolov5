@@ -41,9 +41,10 @@ def safe_download(file, url, url2=None, min_bytes=1E0, error_msg=''):
 
 
 def attempt_download(file, repo='bouacheya/yolov5'):  # from utils.downloads import *; attempt_download()
+    print('yannis attempt dl')
     # Attempt file download if does not exist
     file = Path(str(file).strip().replace("'", ''))
-
+    print('yannis file',file,file.exists())
     if not file.exists():
         # URL specified
         name = Path(urllib.parse.unquote(str(file))).name  # decode '%2F' to '/' etc.
