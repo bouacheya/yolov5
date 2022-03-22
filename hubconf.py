@@ -106,7 +106,7 @@ def yolov5s6(pretrained=True, channels=3, classes=80, autoshape=True, verbose=Tr
     print('yannis v5666666666')
     return _create('yolov5s6', pretrained, channels, classes, autoshape, verbose, device)
 
-def yolofollicle(pretrained=True, channels=3, classes=4, autoshape=True, verbose=True, device=None):
+def yolo_on_follicles(pretrained=True, channels=3, classes=4, autoshape=True, verbose=True, device=None):
     print('yannis folliclesss')
     return _create('yolo_on_follicles', pretrained, channels, classes, autoshape, verbose, device)
 
